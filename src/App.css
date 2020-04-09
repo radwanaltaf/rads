@@ -2,6 +2,7 @@ html {font-size: 2vw;}
 
 body {
     margin: auto 0;    
+    font-family: Optima;
 }
 
 .mainHead {
@@ -10,7 +11,6 @@ body {
     justify-content: center;
     color: wheat;
     font-size: 3.7vw;
-    font-family: Optima;
 }
 
 .particles {
@@ -21,3 +21,47 @@ body {
   left: 0;
   z-index: -1;
 }
+
+.center {
+   display: flex;
+   justify-content: center;
+}
+
+.mainHeadDiv {
+  height: 56vh;
+}
+
+
+.scroll {
+  display: flex;
+  justify-content: center;
+  margin-top: 35vh;
+}
+
+.container {
+  height: 100vh;
+}
+
+.bodyDiv {
+  width: 100%;
+  background-color: #F6FAFF;
+
+}
+
+
+.bodyTxt {
+  margin-left: 3vw;
+}
+
+.bodyGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.h {
+  padding-top: 5vh;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+

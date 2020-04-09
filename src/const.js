@@ -39,3 +39,11 @@ export const particlesOptions = {
       }
     }
   }
+
+export const headerTxt = [
+      "My name is Radwan, I am a Web Developer.", 
+      "I help businesses by building customer-centric websites.",
+] 
+
+
+export const bodyTxt = "According to a research from Stanford 85% of B2C customers make purchasing decision based on the company's website"
