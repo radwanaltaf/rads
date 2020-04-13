@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {bodyTxt} from '../const'
 import './Body.css'
+import tachyons from 'tachyons'
 
 
 class Body extends Component {
@@ -8,7 +9,9 @@ class Body extends Component {
         return (
             <div id="body">
                 <div className="container bodyDiv">
-                    <h1 className="bodyHead">{bodyTxt[0]}</h1>
+                    <div className="titleCard">
+                        <h1 className="bodyHead">{bodyTxt[0]}</h1>
+                    </div>
                     <div className="bodyGrid">
                         <div className="bodyDiv">
                             <div className="innerBodyLeft">

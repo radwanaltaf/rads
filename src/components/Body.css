@@ -1,17 +1,17 @@
 .container {
-    height: 100vh;
+    height: 86.7vh;
   }
   
   .bodyDiv {
     width: 100%;
-    background-color: whitesmoke;
-  
+    background-color: #F0F3FA;
+    padding-top: 0.3vh;
   }
   
   .innerBodyLeft {
     background-color:rgb(30, 144, 255, 1); 
     margin-left: 4vw;
-    height: 60vh;
+    height: 40vh;
     border-radius: 25px;
   
   }
@@ -19,7 +19,7 @@
   .innerBodyRight {
     background-color:rgb(30, 144, 255, 1);
     margin-right: 4vw;
-    height: 60vh;
+    height: 40vh;
     border-radius: 25px;
   }
   
@@ -48,6 +48,14 @@
     padding-top: 3vh;
     text-align: center;
     margin-bottom: 3vh;
+    color: white;
   }
-  
-  
+
+  .titleCard {
+    background-color:rgb(30, 144, 255, 1);
+    width: 80vw;
+    height: 15vh;
+    border-radius: 25px;
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+  }

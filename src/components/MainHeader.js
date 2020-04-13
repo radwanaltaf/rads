@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
-import {headerTxt, bodyTxt} from '../const';
+import {headerTxt} from '../const';
 import "./scroll.css";
 import { Link } from 'react-scroll';
 
