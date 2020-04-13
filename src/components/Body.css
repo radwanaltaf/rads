@@ -1,0 +1,53 @@
+.container {
+    height: 100vh;
+  }
+  
+  .bodyDiv {
+    width: 100%;
+    background-color: whitesmoke;
+  
+  }
+  
+  .innerBodyLeft {
+    background-color:rgb(30, 144, 255, 1); 
+    margin-left: 4vw;
+    height: 60vh;
+    border-radius: 25px;
+  
+  }
+  
+  .innerBodyRight {
+    background-color:rgb(30, 144, 255, 1);
+    margin-right: 4vw;
+    height: 60vh;
+    border-radius: 25px;
+  }
+  
+  .aboutMe {
+    padding: 1vh;
+    margin: 2.5vh;
+  }
+  
+  .contactForm {
+    padding: 1vh;
+    margin: 2.5vh;
+  }
+  
+  .bodyTxt {
+    color: white;
+    text-align: justify;
+  }
+  
+  .bodyGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 4vw;
+  }
+  
+  .bodyHead {
+    padding-top: 3vh;
+    text-align: center;
+    margin-bottom: 3vh;
+  }
+  
+  

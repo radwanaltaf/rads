@@ -6,11 +6,12 @@ import {particlesOptions} from './const'
 import Body from './components/Body'
 
 
+
 class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="example">
         <Particles className='particles' params={particlesOptions}/>
         <MainHeader />
         <Body />
@@ -21,3 +22,6 @@ class App extends Component {
 
 
 export default App
+
+// Body Section should animate into view
+// footer after body section covers 60 percentage of the page

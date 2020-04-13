@@ -41,9 +41,12 @@ export const particlesOptions = {
   }
 
 export const headerTxt = [
-      "My name is Radwan, I am a Web Developer.", 
-      "I help businesses by building customer-centric websites.",
+      "My Name Is Radwan, I Am a Web Developer.", 
+      "I Help Businesses by Building Customer-centric Websites.",
 ] 
 
-
-export const bodyTxt = "According to a research from Stanford 85% of B2C customers make purchasing decision based on the company's website"
+export const bodyTxt = [
+"Contact Me to Get a Free Business Audit.",
+"According to a research from Stanford 85% of customers make purchasing decisions based on the company's website.",
+"I have helped 32 businesses increase their revenue by a little over 52.8% on avergae."
+]
