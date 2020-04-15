@@ -12,7 +12,7 @@
   .innerBodyLeft {
     background-color:rgb(30, 144, 255, 1); 
     margin-left: 4vw;
-    height: 40vh;
+    height: 55vh;
     border-radius: 25px;
   
   }
@@ -25,18 +25,25 @@
   }
   
   .aboutMe {
-    padding: 1vh;
+    padding: 0.7vh;
     margin: 2.5vh;
   }
   
   .contactForm {
-    padding: 1vh;
+    padding: 0.7vh;
     margin: 2.5vh;
   }
   
   .bodyTxt {
     color: white;
     text-align: justify;
+    font-size: 1.015em;
+  }
+
+  .bodyLi {
+    color: white;
+    text-align: justify;
+    font-size: 1.015em;
   }
   
   .bodyGrid {
