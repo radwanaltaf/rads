@@ -1,37 +1,31 @@
-.container {
-    height: 87vh;
-  }
-  
-  .bodyDiv {
-    width: 100%;
-    /* background-color: #F0F3FA; */
+  .flexContainer {
+    display: flex;
     background-color: #DCF0F7;
-    padding-top: 0.3vh;
+    justify-content: space-evenly;
+    /* align-items: center; */
+  }
+
+  .titleCard {
+    background-color:rgb(30, 144, 255, 1);
+    border-radius: 25px;
+  }
+
+  .flexItemAboutMe {
+    flex-basis: 45%;
+  }
+
+  .flexItemContactForm {
+    flex-basis: 45%;
   }
   
   .innerBodyLeft {
     background-color:rgb(30, 144, 255, 1); 
-    margin-left: 4vw;
-    height: 55vh;
     border-radius: 25px;
-  
   }
   
   .innerBodyRight {
     background-color:rgb(30, 144, 255, 1);
-    margin-right: 4vw;
-    height: 40vh;
     border-radius: 25px;
-  }
-  
-  .aboutMe {
-    padding: 0.7vh;
-    margin: 2.5vh;
-  }
-  
-  .contactForm {
-    padding: 0.7vh;
-    margin: 2.5vh;
   }
   
   .bodyTxt {
@@ -40,30 +34,24 @@
     font-size: 1.015em;
   }
 
-  .bodyLi {
-    color: white;
-    text-align: justify;
-    font-size: 1.015em;
-  }
+
   
-  .bodyGrid {
+
+
+  /* .bodyGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 4vw;
-  }
+  } */
   
-  .bodyHead {
-    padding-top: 3vh;
-    text-align: center;
-    margin-bottom: 3vh;
-    color: white;
-  }
 
-  .titleCard {
-    background-color:rgb(30, 144, 255, 1);
-    width: 80vw;
-    height: 15vh;
-    border-radius: 25px;
-    margin-left: 10vw;
-    margin-bottom: 5vh;
-  }
+  /* .aboutMe {
+    padding: 1vh;
+    margin: 2.5vh;
+  } */
+  
+  /* .contactForm {
+    padding: 0.7vh;
+    margin: 2.5vh;
+  } */
+  
