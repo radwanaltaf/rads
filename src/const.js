@@ -47,7 +47,7 @@ export const headerTxt = [
 
 export const bodyTxt = [
 "Contact Me to Get a Free Business Audit",
-"According to a research from Stanford 85% of customers make purchasing decisions based on the company's website & online presence.",
-"I leverage several modern web technolgies included but not limted to: ",
-"I have helped 32 firms increase their sales revenue by a little over 52.8% on average.",
+"According to a research from Stanford 85% of customers make purchasing decisions based on the organization's website.",
+"I have helped 32 companies increase their revenue by 52.8%.",
+"I leverage several modern web technolgies including but not limted to: "
 ]

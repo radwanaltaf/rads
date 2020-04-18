@@ -1,57 +1,96 @@
   .flexContainer {
     display: flex;
-    background-color: #DCF0F7;
+    /* background-color: #DCF0F7; 
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;*/
     justify-content: space-evenly;
-    /* align-items: center; */
+    flex-wrap: wrap;
+    width: 100%;
+
+
+
   }
+
+  #body {
+background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
 
   .titleCard {
-    background-color:rgb(30, 144, 255, 1);
-    border-radius: 25px;
+    background-color:rgb(23,109,183, 01);
+    border-radius:  25px;
   }
+  
 
   .flexItemAboutMe {
-    flex-basis: 45%;
+    flex-basis: 56%;
+    
   }
 
   .flexItemContactForm {
-    flex-basis: 45%;
+    flex-basis: 40%;
   }
   
   .innerBodyLeft {
-    background-color:rgb(30, 144, 255, 1); 
+    /* background-color:rgb(30, 144, 255, 1);  */
+background-color: rgb(23,109,183,1);
     border-radius: 25px;
   }
   
   .innerBodyRight {
-    background-color:rgb(30, 144, 255, 1);
+    background-color: rgb(23,109,183,1);
     border-radius: 25px;
   }
   
   .bodyTxt {
     color: white;
-    text-align: justify;
     font-size: 1.015em;
   }
 
+  .flexTableCont {
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
 
-  
+  .flexTableItem {
+    
+  }
 
 
-  /* .bodyGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 4vw;
-  } */
-  
+  /* BreakPoints */
+  @media(max-width:768px) {
+    .flexContainer {
+      display: flex;
+      background-color: #DCF0F7;
+      justify-content: space-evenly;
+      flex-flow: column wrap;
+    }
 
-  /* .aboutMe {
-    padding: 1vh;
-    margin: 2.5vh;
-  } */
-  
-  /* .contactForm {
-    padding: 0.7vh;
-    margin: 2.5vh;
-  } */
-  
+    .flexItemAboutMe {
+      margin-bottom: 3vh;
+      flex-basis: 1;
+      margin-right: 0px !important;
+    }
+
+    .flexItemContactForm {
+      margin-left: 0px !important;
+    }
+
+    .bodyTxt {
+      font-size: 2rem;
+      text-align: start;
+    }
+
+    .bodyHeader {
+      font-size: 2rem;
+    }
+
+    .tdResp {
+      font-size: 2rem;
+    }
+  }

@@ -15,14 +15,6 @@ body {
     font-family: Optima;
 }
 
-.mainHead {
-    margin-top: 40vh;
-    display: flex;
-    justify-content: center;
-    color: wheat;
-    font-size: 3.7vw;
-}
-
 .particles {
   position: fixed;
   top: 0;
@@ -30,19 +22,4 @@ body {
   bottom: 0; 
   left: 0;
   z-index: -1;
-}
-
-.center {
-   display: flex;
-   justify-content: center;
-}
-
-.mainHeadDiv {
-  height: 60vh;
-}
-
-.scroll {
-  display: flex;
-  justify-content: center;
-  margin-top: 35vh;
 }

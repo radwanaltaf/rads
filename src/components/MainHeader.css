@@ -1,0 +1,31 @@
+.mainHead {
+    margin-top: 40vh;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 1.9rem;
+}
+
+.mainHeadDiv {
+    height: 60vh;  
+}
+  
+.scroll {
+    display: flex;
+    justify-content: center;
+    margin-top: 35vh;
+}
+
+@media(max-width:768px) {
+    .mainHead {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .scroll {
+        /* display: flex;
+        justify-content: center;
+        margin-top: 35vh; */
+        visibility: hidden;
+    }
+}
