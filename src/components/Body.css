@@ -1,65 +1,55 @@
-  .flexContainer {
+.flexContainer {
     display: flex;
-    /* background-color: #DCF0F7; 
-    background-image: url('bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;*/
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
-
-
-
-  }
-
-  #body {
-background: #C9D6FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 }
 
-  .titleCard {
+#body {
+    background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.titleCard {
     background-color:rgb(23,109,183, 01);
     border-radius:  25px;
-  }
+}
   
 
-  .flexItemAboutMe {
+.flexItemAboutMe {
     flex-basis: 56%;
     
-  }
+}
 
-  .flexItemContactForm {
+.flexItemContactForm {
     flex-basis: 40%;
-  }
+}
   
-  .innerBodyLeft {
-    /* background-color:rgb(30, 144, 255, 1);  */
-background-color: rgb(23,109,183,1);
-    border-radius: 25px;
-  }
-  
-  .innerBodyRight {
+.innerBodyLeft {
     background-color: rgb(23,109,183,1);
     border-radius: 25px;
-  }
+}
   
-  .bodyTxt {
+.innerBodyRight {
+    background-color: rgb(23,109,183,1);
+    border-radius: 25px;
+}
+  
+.bodyTxt {
     color: white;
     font-size: 1.015em;
-  }
+}
 
-  .flexTableCont {
+.flexTableCont {
     display: flex;
     justify-content: space-evenly;
     
-  }
+}
 
-  .flexTableItem {
+.flexTableItem {
     
-  }
+}
 
 
   /* BreakPoints */
@@ -69,28 +59,42 @@ background-color: rgb(23,109,183,1);
       background-color: #DCF0F7;
       justify-content: space-evenly;
       flex-flow: column wrap;
+      
     }
 
-    .flexItemAboutMe {
+  .flexItemAboutMe {
       margin-bottom: 3vh;
       flex-basis: 1;
-      margin-right: 0px !important;
-    }
+      margin-right: 4vw !important;
+      margin-left: 4vw;
+      padding-right: 2vh !important;
+      padding-left: 2vh !important;
+}
 
-    .flexItemContactForm {
-      margin-left: 0px !important;
-    }
-
-    .bodyTxt {
-      font-size: 2rem;
-      text-align: start;
-    }
-
-    .bodyHeader {
-      font-size: 2rem;
-    }
-
-    .tdResp {
-      font-size: 2rem;
-    }
+  .flexItemContactForm {
+      margin-left: 4vw !important;
+      margin-right: 4vw;
+      padding-right: 2vh !important;
+      padding-left: 2vh !important;
   }
+
+  .bodyTxt {
+      font-size: 2.5rem;
+      text-align: start;
+  }
+
+  .titleCard {
+    margin-right: 5vw !important;
+    margin-left: 5vw !important;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+
+  .bodyHeader {
+      font-size: 3rem;
+  }
+
+  .tdResp {
+      font-size: 2rem;
+  }
+}

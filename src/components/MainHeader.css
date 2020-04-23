@@ -7,7 +7,10 @@
 }
 
 .mainHeadDiv {
-    height: 60vh;  
+    height: 60vh;
+    position: sticky;
+    top: 40vh;
+    z-index: -1;
 }
   
 .scroll {
@@ -16,6 +19,10 @@
     margin-top: 35vh;
 }
 
+
+
+
+/* BreakPoints */
 @media(max-width:768px) {
     .mainHead {
         font-size: 4rem;
@@ -23,9 +30,6 @@
     }
 
     .scroll {
-        /* display: flex;
-        justify-content: center;
-        margin-top: 35vh; */
         visibility: hidden;
     }
 }

@@ -11,7 +11,7 @@ class Body extends Component {
             <div id="body">
                <div className="flexContainer pa3">
                    <div className="shadow-5 grow titleCard pr3 pl3">
-                        <h2 className="tc white bodyHeader">{bodyTxt[0]}</h2>
+                        <h1 className="tc white bodyHeader">{bodyTxt[0]}</h1>
                     </div>
                </div>
 

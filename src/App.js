@@ -5,6 +5,7 @@ import Particles from 'react-particles-js';
 import {particlesOptions} from './const'
 import Body from './components/Body'
 import Footer from './components/Footer'
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 
 
@@ -15,7 +16,10 @@ class App extends Component {
     return (
       <div className="example">
         <Particles className='particles' params={particlesOptions}/>
-        <MainHeader />
+        <ParallaxProvider>
+          <MainHeader/>
+        </ParallaxProvider>
+
         <Body />
         <Footer />
       </div>
@@ -26,5 +30,5 @@ class App extends Component {
 
 export default App
 
-// Body Section should animate into view
-// footer after body section covers 60 percentage of the page
+// Remove Blinking Cursor on smaller screens.
+// Add form on Body
