@@ -10,7 +10,7 @@
     height: 60vh;
     position: sticky;
     top: 40vh;
-    z-index: -1;
+    /* z-index: -1; */
 }
   
 .scroll {

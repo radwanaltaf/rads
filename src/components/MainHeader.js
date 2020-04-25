@@ -8,7 +8,7 @@ import { Parallax } from 'react-scroll-parallax';
 
 
 
-const MainHeader = (scroll) => {
+const MainHeader = () => {
     return (
         <div className="mainHeadDiv">
             <div>
