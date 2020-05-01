@@ -6,7 +6,7 @@ html::-webkit-scrollbar {
 }
 
 /* Hide scrollbar for IE and Edge */
-.example {
+.hideScroll {
   -ms-overflow-style: none;
 }
 

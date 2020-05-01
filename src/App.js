@@ -14,7 +14,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="example">
+      <div className="hideScroll">
         <Particles className='particles' params={particlesOptions}/>
         <ParallaxProvider>
           <MainHeader/>

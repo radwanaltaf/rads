@@ -15,27 +15,27 @@
 
 .titleCard {
     background-color:rgb(23,109,183, 01);
-    border-radius:  25px;
+    border-radius:  10px;
 }
   
 
 .flexItemAboutMe {
-    flex-basis: 56%;
+    flex-basis: 45%;
     
 }
 
-.flexItemContactForm {
-    flex-basis: 40%;
+.flexItemSkills {
+    flex-basis: 50%;
 }
   
-.innerBodyLeft {
+.innerBodyCard {
     background-color: rgb(23,109,183,1);
-    border-radius: 25px;
+    border-radius: 20px;
 }
-  
-.innerBodyRight {
-    background-color: rgb(23,109,183,1);
-    border-radius: 25px;
+
+.calendlyCard {
+    background-color: #1b222b;
+    border-radius: 5px;
 }
   
 .bodyTxt {
@@ -53,6 +53,52 @@
     
 }
 
+.popUp {
+    font-size: 30px;
+    margin: 50px;
+}
+
+.popup-content {
+    border-radius: 15px !important;
+    border: 2px solid black;
+    
+    
+}
+
+
+
+.modal {
+  font-size: 12px;
+  color: #1b222b;
+  overflow: hidden;
+
+}
+
+.modal > .content {
+  width: 100%;
+  background-color: white;
+}
+
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px 5px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 25px;
+  border: 1px solid #cfcece;
+  z-index: 1;
+}
+
+.btn {
+    background-color: #1b222b;
+    margin-left: 1vw;
+}
+
 
   /* BreakPoints */
   @media(max-width:768px) {
@@ -64,39 +110,73 @@
       
     }
 
-  .flexItemAboutMe {
+   .flexItemAboutMe {
       margin-bottom: 3vh;
       flex-basis: 1;
       margin-right: 4vw !important;
       margin-left: 4vw;
       padding-right: 2vh !important;
       padding-left: 2vh !important;
-}
+    }
 
-  .flexItemContactForm {
+   .flexItemContactForm {
       margin-left: 4vw !important;
       margin-right: 4vw;
       padding-right: 2vh !important;
       padding-left: 2vh !important;
-  }
+    }
 
-  .bodyTxt {
+   .bodyTxt {
       font-size: 2.5rem;
       text-align: start;
-  }
+    } 
 
-  .titleCard {
+   .titleCard {
     margin-right: 5vw !important;
     margin-left: 5vw !important;
     padding-top: 1vh;
     padding-bottom: 1vh;
-  }
+    }
 
-  .bodyHeader {
+   .bodyHeader {
       font-size: 3rem;
-  }
+    }
 
-  .tdResp {
+   .tdResp {
       font-size: 2rem;
-  }
+        }
+
+
+/* OverWriting animations to avoid it on smaller screens */
+   .grow {
+    backface-visibility: visible !important;
+    transform: translateZ(0) !important;
+    transition: transform 0s!important;
+    }
+
+   .grow:hover,
+   .grow:focus {
+    transform: scale(1)!important;
+    }
+
+   .grow:active {
+    transform: scale(0)!important;
+    }
+
+    .grow-large {
+    -moz-osx-font-smoothing: grayscale;
+     backface-visibility: visible !important;
+     transform: translateZ(0)!important;
+     transition: transform 0s !important;
+    }
+
+    .grow-large:hover, 
+    .grow-large:focus {
+    transform: scale(1)!important;
+    }
+
+    .grow-large:active {
+    transform: scale(0) !important;
+    }
+
 }

@@ -49,5 +49,6 @@ export const bodyTxt = [
 "Contact Me to Get a Free Business Audit",
 "According to a research from Stanford 85% of customers make purchasing decisions based on the organization's website.",
 "I have helped 32 companies increase their revenue by 52.8%.",
-"I leverage several modern web technolgies including but not limted to: "
+"I leverage several modern web technolgies including but not limted to:",
+"Schedule a one on one meeting with me to discuss how I can help excel your firm"
 ]
