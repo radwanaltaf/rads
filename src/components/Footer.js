@@ -18,8 +18,12 @@ export class Footer extends Component {
                         </div>
                         <div className="footerCol">
                         <p className="footerTxt">
-                            <FontAwesomeIcon icon={faLinkedin} className="mr2" />
-                            <FontAwesomeIcon icon={faInstagram}/>
+                            <a className="footerIcons" href="https://www.linkedin.com/in/radwanaltaf/">
+                                <FontAwesomeIcon icon={faLinkedin} className="mr2" />
+                            </a>
+                            <a className="footerIcons" href="https://www.instagram.com/radwanaltaf/">
+                                <FontAwesomeIcon icon={faInstagram}/>
+                            </a>
                         </p>
                         </div>
                     </div>

@@ -5,7 +5,6 @@ import 'tachyons'
 import CalendlyPopup from './CalendlyPopup'
 
 
-
 class Body extends Component {
 
     funcPop = () => {
@@ -22,7 +21,11 @@ class Body extends Component {
 
                <div className="flexContainer pa3">
                    <div className="grow shadow-1 innerBodyCard flexItemAboutMe ph3 mr2">
-                        <p className="bodyTxt ">{bodyTxt[1]} <br/> <br/> {bodyTxt[2]} </p>
+                        <p className="bodyTxt ">
+                            {bodyTxt[1]} <br/> <br/>
+                            {bodyTxt[2]} <br/> <br/>
+                            Take a look at my portfolio <a className="bodyRef" href="https://www.behance.net/radwanaltaf/">here</a>
+                        </p>
                    </div>
                    <div className="grow shadow-1 innerBodyCard flexItemSkills ph3 ml2">
                         <p className="bodyTxt mb0">{bodyTxt[3]}</p> 

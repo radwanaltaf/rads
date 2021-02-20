@@ -18,7 +18,7 @@ class Calendly extends Component {
             <div id="schedule_form">
                 <div
                 className="calendly-inline-widget"
-                data-url="https://calendly.com/radwanaltaf/15min"
+                data-url="https://calendly.com/radwanaltaf/project-proposal-meeting"
                 style={window.innerWidth > 1299 ? { minWidth: '320px', width: '50vw', height: '90vh', marginTop: '-40px'} : {minWidth: '320px', width: '50vw', height: '90vh',}} />
 
             </div>

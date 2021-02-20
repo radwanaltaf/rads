@@ -6,15 +6,14 @@
 }
 
 #body {
-    background: #C9D6FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: #F5F5F5	; */
+    background-image: url(./Imgs/rad_bg.jpg);
     position: relative;
     z-index: 2;
 }
 
 .titleCard {
-    background-color:rgb(23,109,183, 01);
+    background-color:rgb(23,109,183, 0.9);
     border-radius:  10px;
 }
   
@@ -29,12 +28,13 @@
 }
   
 .innerBodyCard {
-    background-color: rgb(23,109,183,1);
+    background-color: rgb(23,109,183,0.9);
     border-radius: 20px;
 }
 
 .calendlyCard {
     background-color: #1b222b;
+    opacity: 1;
     border-radius: 5px;
 }
   
@@ -49,10 +49,6 @@
     
 }
 
-.flexTableItem {
-    
-}
-
 .popUp {
     font-size: 30px;
     margin: 50px;
@@ -61,11 +57,12 @@
 .popup-content {
     border-radius: 15px !important;
     border: 2px solid black;
-    
-    
 }
 
-
+.bodyRef {
+  color: #ffffff;
+  text-decoration: underline;
+}
 
 .modal {
   font-size: 12px;
